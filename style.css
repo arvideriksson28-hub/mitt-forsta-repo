@@ -1,7 +1,18 @@
 body {
-    color: red;
-    background-color: blue;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
 }
-h1 {
-    color: white;
+main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+#card-container {
+    border: 2px solid black;
+}
+
+.card {
+    border: 2px solid red;
 }
